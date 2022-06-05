@@ -1,9 +1,0 @@
-clear all
-close all
-
-% Control signal
-config.control.frequency = 60;
-config.control.amplitude = 1.0;
-
-% Reference signal
-config.reference.frequency = 
