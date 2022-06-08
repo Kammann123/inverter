@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-OutputPath=
+OutputPath=Project Outputs for Inverter
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -80,6 +80,57 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FKMFGTZE
 
+[Document3]
+DocumentPath=..\job\Inverter.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=..\lib\Inverter.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HFLTGTEL
+
+[Document5]
+DocumentPath=..\pcb\Inverter.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HSYOLKOY
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -89,6 +140,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=Project Outputs for Inverter
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1030,23 +1084,62 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-FullReplace=1
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Inverter.SchLib
+ComponentDesignItemID0=CAPACITOR POLARIZADO
+ComponentSymbolReference0=CAPACITOR POLARIZADO
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
 PreserveParameterLocations=1
 PreserveParameterVisibility=1
 DoGraphics=1
-DoParameters=1
+DoParameters=0
 DoModels=1
 AddParameters=0
 RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=Library Reference
+ParameterUpdate3=1
+ParameterName4=Manufacturer
+ParameterUpdate4=1
+ParameterName5=Manufacturer Part Number
+ParameterUpdate5=1
+ParameterName6=Value
+ParameterUpdate6=1
+ParameterName7=Voltage Rating
+ParameterUpdate7=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=CAP100RP
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=CAP100RP2
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=CAP200RP
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=CAP200RP2
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=CAP300RP
+ModelUpdate4=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1055,12 +1148,14 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=220V_F|NetColor=$002E619F
-Net2=NetName=220V_N|NetColor=$00FFFF6E
-Net3=NetName=300V|NetColor=$00FF6E6E
-Net4=NetName=GND|NetColor=$006EFF6E
-Net5=NetName=VCC|NetColor=$006E6EFF
-Net6=NetName=VDC|NetColor=$006E6EFF
+Net1=NetName=15V|NetColor=$006E6EFF
+Net2=NetName=220V_F|NetColor=$002E619F
+Net3=NetName=220V_N|NetColor=$00FFFF6E
+Net4=NetName=300V|NetColor=$00FF6E6E
+Net5=NetName=3V3|NetColor=$006E6EFF
+Net6=NetName=GND|NetColor=$006EFF6E
+Net7=NetName=VCC|NetColor=$006E6EFF
+Net8=NetName=VDC|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
