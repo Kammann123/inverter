@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Inverter.OutJob
 Description=
-TargetOutputMedium=Schematic Release
+TargetOutputMedium=Release
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -27,7 +27,7 @@ OutputMedium1=Print Job
 OutputMedium1_Type=Printer
 OutputMedium1_Printer=
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium2=Schematic Release
+OutputMedium2=Release
 OutputMedium2_Type=Publish
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
@@ -41,11 +41,33 @@ OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.70|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=D:\Lucas\repositories\inverter\board\schematic\Inverter.SchDoc
+OutputType2=BOM_PartType
+OutputName2=Bill of Materials
+OutputCategory2=Report
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=2
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=General
+Configuration2_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1401|FormHeight=716|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration2_Name3=GroupOrder
+Configuration2_Item3=Value=True|Footprint=True
+Configuration2_Name4=SortOrder
+Configuration2_Item4=Designator=Up
+Configuration2_Name5=VisibleOrder
+Configuration2_Item5=Comment=120|Description=120|Designator=120|Footprint=120|Quantity=120|Value=56|Power=64|Voltage Rating=100
+Configuration2_Name6=VisibleOrder_Flat
+Configuration2_Item6=Comment=120|Description=120|Designator=120|Footprint=120|Quantity=120|Value=56|Power=64|Voltage Rating=100
 
 [PublishSettings]
 OutputFilePath2=Project Outputs for Free Documents\Inverter.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Free Documents
+OutputBasePath2=Project Outputs for Inverter
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]

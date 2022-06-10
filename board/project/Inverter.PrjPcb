@@ -1,9 +1,9 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=4
 ChannelRoomNamingStyle=0
 ReleasesFolder=
-ChannelDesignatorFormatString=$Component_$RoomName
+ChannelDesignatorFormatString=$Component$RoomName
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
@@ -21,7 +21,7 @@ UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
-NameNetsHierarchically=0
+NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
 AutoCrossReferences=0
@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-OutputPath=Project Outputs for Inverter
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -131,6 +131,27 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HSYOLKOY
 
+[Document6]
+DocumentPath=..\schematic\PhaseDriver.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DMQKIXLQ
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Inverter\Design Rule Check - Inverter.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -142,7 +163,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for Inverter
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -930,7 +951,7 @@ Type10=1
 Type11=2
 Type12=2
 Type13=2
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
