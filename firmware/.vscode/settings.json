@@ -6,13 +6,14 @@
     "interface/ftdi/esp32_devkitj_v1.cfg",
     "target/esp32.cfg"
   ],
-  "idf.portWin": "COM3",
+  "idf.portWin": "COM4",
   "files.associations": {
     "stdio.h": "c",
     "freertos.h": "c",
     "mcpwm.h": "c",
     "task.h": "c",
     "mcpwm_reg.h": "c",
-    "bitset": "c"
+    "bitset": "c",
+    "*.ipp": "c"
   }
 }
