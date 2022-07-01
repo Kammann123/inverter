@@ -3,3 +3,4 @@
 slprj/
 *.log
 *.raw
+.vscode
